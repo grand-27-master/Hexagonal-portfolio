@@ -1,6 +1,3 @@
-/*------------------------------------------------
-	Base Styles
--------------------------------------------------*/
 body {
   font-family: 'Poppins', sans-serif;
   font-style: extra-dark;
@@ -50,9 +47,6 @@ p:last-child {
   color: #fff;
 }
 
-/*
- *  Reset bootstrap's default style
- */
 .form-control::-webkit-input-placeholder,
 ::-webkit-input-placeholder {
   opacity: 1;
@@ -114,9 +108,6 @@ textarea, label {
   padding: 7px;
 }
 
-/*
- *  CSS Helper Class
- */
 .clear:before, .clear:after {
   content: " ";
   display: table;
@@ -189,7 +180,7 @@ textarea, label {
 }
 
 .nicescroll-cursors {
-  background: #FA6862 !important;
+  background: #FA6862;
 }
 
 .preloader {
@@ -210,7 +201,7 @@ textarea, label {
 }
 
 .loading-mask {
-  background-color: #9ee047;
+  background-color: #FA6862;
   height: 100%;
   left: 0;
   position: absolute;
